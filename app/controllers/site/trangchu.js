@@ -7,7 +7,7 @@ const useragent = require('express-useragent');
 const Post = require("../../models/posts");
 
 exports.trangchu_get_home = (req, res, next) => {
-/*  if(req.useragent.isMobile){
+  if(req.useragent.isMobile){
     Danhmuc.find()
         .select("_id name link alt index image")
         .sort('index')
@@ -117,7 +117,7 @@ exports.trangchu_get_home = (req, res, next) => {
                                       };
                                     })
                                   };
-            res.render('mobile/homemobile',{poststintucghemassage:poststintucghemassage,danhmucall:danhmucall,poststuvan:poststuvan,laptopall:laptopall,layout:'layouts/layoutmobile/layoutmobile'});
+            res.render('mobile/trangchutest',{poststintucghemassage:poststintucghemassage,danhmucall:danhmucall,poststuvan:poststuvan,laptopall:laptopall,layout:'layouts/layoutmobile/layoutmobile'});
           })
           })
           })
@@ -129,7 +129,7 @@ exports.trangchu_get_home = (req, res, next) => {
                  });
                 });
   }
-  else{ */
+  else{
     Danhmuc.find()
         .select("_id name link alt index image")
         .sort('index')
@@ -221,4 +221,4 @@ exports.trangchu_get_home = (req, res, next) => {
                });
               });
       }
-  //}
+  }
