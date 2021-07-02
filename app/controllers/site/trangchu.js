@@ -117,7 +117,7 @@ exports.trangchu_get_home = (req, res, next) => {
                                       };
                                     })
                                   };
-            res.render('mobile/trangchutest',{poststintucghemassage:poststintucghemassage,danhmucall:danhmucall,poststuvan:poststuvan,laptopall:laptopall,layout:'layouts/layoutmobile/layoutmobile'});
+            res.render('mobile/homemobile',{poststintucghemassage:poststintucghemassage,danhmucall:danhmucall,poststuvan:poststuvan,laptopall:laptopall,layout:'layouts/layoutmobile/layoutmobile'});
           })
           })
           })
