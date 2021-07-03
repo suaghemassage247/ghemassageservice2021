@@ -224,6 +224,6 @@ exports.trangchu_get_home = (req, res, next) => {
   }
   exports.trangchu_get_home1 = (req, res, next) => {
 
-      res.render('fontend/trangchu1'});
+      res.render('fontend/trangchu1');
 
     }
